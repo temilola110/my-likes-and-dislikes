@@ -1,0 +1,33 @@
+ body{
+    background-color: rgb(92, 30, 30);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+.likes{
+    text-align: center;
+}
+
+
+ul.likes{
+     list-style-type: disc;
+     list-style-position: inside;
+}
+
+
+ol.dislikes{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+  }
+
+ul li{
+   background-color: #ffe5e5;
+   color: rgb(44, 18, 68);
+   margin: 5px;
+}
+
+ol li{
+    background: #cce5ff;
+    color: red;
+    padding: 5px;
+    margin-left: 40px;
+}
